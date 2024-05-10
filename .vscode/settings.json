@@ -1,0 +1,15 @@
+{
+	"editor.formatOnSave": true,
+	"C_Cpp.clang_format_sortIncludes": true,
+	"C_Cpp.autoAddFileAssociations": false,
+	"files.insertFinalNewline": true,
+	"python.formatting.autopep8Args": [
+		"--max-line-length=200"
+	],
+	"C_Cpp.default.includePath": [
+		"${workspaceFolder}"
+	],
+	"C_Cpp.errorSquiggles": "disabled",
+	"C_Cpp.intelliSenseEngine": "Tag Parser",
+	"editor.formatOnSaveMode": "modifications",
+}

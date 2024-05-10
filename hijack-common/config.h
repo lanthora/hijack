@@ -1,0 +1,43 @@
+// SPDX-License-Identifier: Apache-2.0
+#ifndef HIJACK_COMMON_CONFIG_H
+#define HIJACK_COMMON_CONFIG_H
+
+#define CONFIG_USDT false
+
+#ifndef CONFIG_RINGBUF_SIZE_MAX
+#define CONFIG_RINGBUF_SIZE_MAX 262144
+#endif
+
+#ifndef CONFIG_LOG_LEN_MAX
+#define CONFIG_LOG_LEN_MAX 1024
+#endif
+
+#ifndef CONFIG_PROCESS_NUMBER_MAX
+#define CONFIG_PROCESS_NUMBER_MAX 10240
+#endif
+
+#ifndef CONFIG_CONCURRENT_THREAD_MAX
+#define CONFIG_CONCURRENT_THREAD_MAX 10240
+#endif
+
+#ifndef CONFIG_CTL_SOCKET_PATH
+#define CONFIG_CTL_SOCKET_PATH "/var/run/hijack-ctl.sock"
+#endif
+
+#ifndef CONFIG_CTL_BUFFER_SIZE_MAX
+#define CONFIG_CTL_BUFFER_SIZE_MAX 10240
+#endif
+
+#ifndef CONFIG_FILE_NAME_LEN_MAX
+#define CONFIG_FILE_NAME_LEN_MAX 16
+#endif
+
+#ifndef CONFIG_SOCK_NUM_MAX
+#define CONFIG_SOCK_NUM_MAX 10240
+#endif
+
+#ifndef CONFIG_MAX_STACK_DEPTH
+#define CONFIG_MAX_STACK_DEPTH 127
+#endif
+
+#endif

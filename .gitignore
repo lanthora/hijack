@@ -1,0 +1,12 @@
+# eBPF 中间文件
+hijack/hijack.skel.h
+hijack-ebpf/vmlinux.h
+
+# Python 缓存文件
+__pycache__
+
+# 目标二进制文件
+target/*
+
+# 保留空目录
+!.gitkeep
